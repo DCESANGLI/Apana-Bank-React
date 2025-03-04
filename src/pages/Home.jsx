@@ -8,15 +8,15 @@ let Home = () => {
             <h1 class="display-4 fw-bold">Welcome to APNA Bank</h1>
             <p class="lead">Your Trusted Partner in Financial Growth</p>
         </div>
-        <h2>Our Services ...</h2>
+        <h2>Our Services</h2>
         <div class="service-card">
-           <img src="./1img.jpg" alt="Digital Banking"></img>
+            <img src="./1img.jpg" alt="Digital Banking"></img>
             <h3>Digital Banking</h3>
             <p>Seamless online and mobile banking experiences</p>
         </div>
 
         <div class="service-card">
-            <img src="./2.jpgnpm start" alt="Investment Platforms"></img>
+            <img src="./2.jpg" alt="Investment Platforms"></img>
             <h3>Investment Platforms</h3>
             <p>Smart investment options for every financial goal</p>
         </div>
