@@ -1,4 +1,4 @@
-
+import './homestyle.css';
 
 let Home = () => {
     return (
