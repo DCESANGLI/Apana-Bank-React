@@ -3,7 +3,8 @@ import "./user.style.css";
 let SignUp = () => {
   return (
     <>
-      <div class="container">
+    <div className="d-flex justify-content-center">
+      <div class="container1 my-3">
         <h2>Bank Account Registration</h2>
         <form id="registrationForm">
           <div class="form-group">
@@ -58,8 +59,9 @@ let SignUp = () => {
             <div class="error" id="passwordError"></div>
           </div>
 
-          <button type="submit">Register</button>
+          <button class="button1" type="submit">Register</button>
         </form>
+      </div>
       </div>
     </>
   );
