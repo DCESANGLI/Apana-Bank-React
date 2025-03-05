@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 
 let Header = () => {
     return (
@@ -23,7 +23,7 @@ let Header = () => {
 
                     </ul>
                     <div class="d-flex">
-                        <button class="btn btn-lg btn-outline-dark text-white m-2" type="button">Sign Up</button>
+                        <Link to="/signup" class="btn btn-lg btn-outline-dark text-white m-2" type="button">Sign Up</Link>
                         <button class="btn btn-lg  btn-outline-dark text-white m-2" type="button">Login</button>
                     </div>
                 </div>
