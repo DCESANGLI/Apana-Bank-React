@@ -2,7 +2,7 @@
   "name": "apna-bank-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DCESANGLI.github.io/Apana-Bank-React",
+  "homepage": "https://dcesangli.github.io/Apana-Bank-React",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
