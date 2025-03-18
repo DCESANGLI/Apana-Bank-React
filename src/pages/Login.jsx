@@ -1,9 +1,11 @@
 import { useState } from "react";
 import "./user.style.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 let Login = () => {
   let [data, setData] = useState({email:"", password:""});
+  const navigate = useNavigate();
 
   let readInput = (event) => {
     const {name, value} = event.target;
@@ -16,6 +18,7 @@ let Login = () => {
 
       .then(res=>{
         alert("Login Successfull");
+        navigate("/dashboard");
       })
 
       .catch(err=>{
